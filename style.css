@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.main-nav {
+    display: inline-block;
+    flex-grow: 4;
+
+
+
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.main-nav ul li {
+    display: inline-block;
+    padding: 0px 15px;
+
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-nav ul li a:visited {
+    color: black;
+
+}
+
+.top-bar {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(155, 112, 112);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+
+}
+
+.site-container {
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+.site-container>div {
+    flex: 1;
+}
+
+
+
+.site-text {
+    margin: 10%;
+
+}
+
+.site-text>p {
+
+    margin: 20px 0px 25px 0px;
+}
+
+.social-media {
+    margin: 20px 50px;
+
+}
+
+.social-media i {
+    font-size: 25px;
+    margin: 7px;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.slider-menu {
+
+    position: absolute;
+    height: 100%;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    /* margin-right: -5%; */
+    
+}
+
+.right-side-content {
+    position: relative;
+    width: 100%;
+    background-image: url("Imagini\\abstract_img.jpg");
+    background-size: cover;
+}
+
+.abstract-photo {
+    
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    max-height: 100%;
+
+}
+
+.horizontal-line {
+    height: 60vh;
+    border-right: 2px solid white;
+    
+}
+
+.dots-container {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    flex-direction: column;
+    
+}
+
+.dots-line-control {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.slider-menu>p {
+    margin: 5px 10px;
+    color: white;
+    transform-origin: left center;
+    /* transform: rotate(-90deg); */
+    writing-mode:vertical-rl;
+}
+
+.dot {
+    border: white solid 2px;
+    background-color: transparent;
+    margin: 1px;
+}
+.dot.selected{
+    background-color: white;
+}
